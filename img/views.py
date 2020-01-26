@@ -5,14 +5,6 @@ from .models import Imagemodels
 from .form import Imagemodelform
 # Create your views here.
 
-def home(request):
-    if request.method =="POST":
-        nam =request.POST.get('name')
-        imag=request.POST.get('image')
-        print(imag)
-        Imagemodels.objects.create(name=nam,image=imag)
-
-    return render(request,'home.html')
 
 class image(CreateView):
     model = Imagemodels
