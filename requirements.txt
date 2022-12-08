@@ -1,6 +1,6 @@
 beautifulsoup4==4.8.1
 bson==0.5.8
-certifi==2019.9.11
+certifi==2022.12.7
 cfe==0.0.15
 chardet==3.0.4
 dataclasses==0.6
